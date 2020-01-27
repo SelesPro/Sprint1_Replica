@@ -1,0 +1,70 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#section2{
+	width: 100%;
+	height: 1000px;
+	background-color: #F4F5F9;
+}
+
+#cafe{
+    margin-top: 50px;
+	height: 550px;
+	margin-left: 800px;
+}
+
+#marco{
+	position: absolute;
+	margin-top: 74px;
+	margin-left: 310px;
+    height: 500px;
+    width: 550px;
+	background-color: white;
+}
+#botoncito{
+	margin-left: 760px;
+}
+#boton{
+	/*display: inline;*/
+	background-color: #3C88E7;
+	font-size: 20px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-left: 220PX;
+	margin-top: 50px;
+	width: 100px;
+}
+#boton a{
+	text-decoration: none;
+	color: white;
+}
+
+#luz{
+	margin-top: 20px;
+	width: 100px;
+	height: 100px;
+	margin-left: 220px;
+}
+
+h2,h4,h5,h6{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#botones{
+	margin-top: 30px;
+	margin-left: 245px;
+}
+
+hr{
+	width: 50px;
+ 	margin-left: 245px;
+}
+
+#cajacafe{
+	float: right;
+	margin-top: 0px;
+	margin-right: 300px;
+}

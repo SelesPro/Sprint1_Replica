@@ -1,0 +1,235 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-family: Tahoma;
+}
+
+/*CSS YEISON*/
+.fondo{
+	position:relative;
+
+}
+.slider{
+	width: 100%;
+	top:0px; 
+	bottom:0px;
+	right:0px;
+	left:0px;
+	clip-path: polygon(200% 0%, 100% 60%, 50% 90%, 0% 60%, 0% 48%, 0% 0%);
+}
+.logo{
+	position: absolute;
+	top:40px; 
+	bottom:0px;
+	right:0px;
+	left:100px;
+	height: 20%;
+}
+.home{
+	position: absolute;
+	top:45px; 
+	bottom:0px;
+	right:0px;
+	left:650px;
+}
+.home a{
+	margin: 20px 20px 20px 20px;
+	font-size: 18px;
+	text-decoration: none;
+	color: #fff;
+}
+.texto{
+	position: absolute;
+	top:130px; 
+	bottom:0px;
+	right:0px;
+	left:0px;
+	color: #fff;
+	font-size: 1.2em;
+}
+.texto h1{
+	font-size:50px;
+}
+
+.linkBoton{
+	position: absolute;
+	top:360px; 
+	bottom:0px;
+	right:0px;
+	left:530px;
+}
+.learn {
+	font-size: 18px;
+	text-decoration: none;
+	margin: 30px 20px 20px 20px;
+	color: #fff;
+	border: 0.5px white solid;
+	padding: 15px 50px;
+	font-size: 15px;
+	border-radius: 5px 5px 5px 5px;
+}
+.get{
+	font-size: 18px;
+	text-decoration: none;
+	margin: 30px 20px 20px 20px;
+	color: #fff;
+	background:#3bA7E1;
+	padding: 15px 25px;
+	font-size: 15px;
+	border-radius: 5px 5px 5px 5px;
+}
+
+.texto hr{
+	width:100px;
+	height: 1px;
+	top:150;
+	background-color:white;
+	text-decoration-line: none;
+
+}
+
+.guiones{
+	position: absolute;
+	top:195px; 
+	bottom:0px;
+	right:0px;
+	left:0px;
+	color: #fff;
+	display: inline;
+}
+.punto{
+	position: absolute;
+	top:218px; 
+	bottom:0px;
+	right:0px;
+	left:753px;
+	color: #3bA7E1;
+}
+
+.circular { 
+	width: 10px; 
+	height: 10px; 
+	border-radius: 150px; 
+	-webkit-border-radius: 150px; 
+	-moz-border-radius: 150px; 
+	background: #3C88E7 no-repeat; } 
+
+.circular img { 
+	opacity: 0; 
+	filter: alpha(opacity=0); }
+
+/*CSS ELENA*/
+
+#ancla{
+	position: absolute;
+	float: left;
+	top: 395px;
+	left: 655px;
+}
+
+#section1{
+	height:250px
+	background-color:white;
+}
+
+#section1 div{
+	width: 250px;
+	margin-left: 110px;
+	float: left;
+	background-color: white;
+}
+#section1 img{
+	margin-left: 70px;
+}
+
+#section1 p, h2{
+	color: #787878;
+	text-align: center;
+	padding: 20px;
+
+}
+
+hr {
+	margin-left: 95px;
+	width:50px;
+	height: 0.5px;
+	margin-top: -25px;
+	background-color:grey;
+	text-decoration-line: none;
+}
+
+
+/*CSS DIANA*/
+
+#section2{
+	width: 100%;
+	background-color: #F4F5F9;
+	float: left;
+	color: #787878;
+}
+
+#cafe{
+    margin-top: 50px;
+	height: 550px;
+	margin-left: 800px;
+}
+
+#marco{
+	position: absolute;
+	margin-top: 74px;
+	margin-left: 310px;
+    height: 500px;
+    width: 550px;
+	background-color: white;
+	color: #787878;
+}
+
+#botoncito{
+	margin-left: 760px;
+}
+#boton{
+	background-color: #3C88E7;
+	font-size: 17px;
+	margin: 30px 20px 20px 175px;
+	padding: 15px 40px;
+	width: 100px;
+	border-radius: 5px 5px 5px 5px;
+
+}
+#boton a{
+	text-decoration: none;
+	color: white;
+}
+
+#luz{
+	margin-top: 20px;
+	width: 100px;
+	margin-left: 220px;
+}
+
+h2,h4,h5,h6{
+	text-align: center;
+	margin-bottom: 30px;
+
+}
+
+#botones{
+	margin-top: 30px;
+	margin-left: 245px;
+}
+
+#marco hr{
+	width: 50px;
+ 	margin-left: 245px;
+ 	margin-bottom: 30px;
+}
+
+#cajacafe{
+
+	float: right;
+	margin-top: 0px;
+	margin-right: 300px;
+}
